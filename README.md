@@ -20,7 +20,7 @@ Go to [releases](https://github.com/mespp/taurapp/releases) and download or crea
    - run ```Set-ExecutionPolicy RemoteSigned```
 
 3. create the executable
-   - clone the repo ```git clone https://github.com/mespp/taurapp```
+   - clone the repo ```git clone https://github.com/mespp/taurapp-win```
    - get into the folder you cloned it with ```cd where_your_folder_is```
    - run ```npm install```
    - run ```npm run tauri build```
