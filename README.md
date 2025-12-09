@@ -11,10 +11,15 @@ TaurApp is an experimental client and is initially created to test out Tauri its
 Go to [releases](https://github.com/mespp/taurapp/releases) and download or create the binary by yourself.
 
 1. install necessary programs
-   - install [github desktop](https://desktop.github.com/download/) (or whatever git program you want)
+   - install [github desktop](https://desktop.github.com/download) (or whatever git program you want)
    - install [rust](https://rustup.rs/)
    - install [node.js](nodejs.org)
-
+   - install [visual studio build tools 2026](https://aka.ms/vs/stable/vs_BuildTools.exe)
+     * click on modify
+       ![vs-modify-ss-1](resources/meta/vs-modify-ss-1.png) 
+     * select desktop development with C++ and click on modify
+       ![vs-modify-ss-2](resources/meta/vs-modify-ss-2.png) 
+           
 2. some more preparations
    - execute powershell as administrator
    - run ```Set-ExecutionPolicy RemoteSigned```
