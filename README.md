@@ -6,10 +6,24 @@ TaurApp is an experimental client and is initially created to test out Tauri its
 
 ![Linux Screenshot](resources/meta/linux-ss.png)
 
-## Installing
+## Installation
 
-It is currently distributed as only Debian and AppImage. Head to [Releases](https://github.com/erayerdin/taurapp/releases) page and pick the latest version and download the desired format. It also does not autoupdate yet, so you have to check out the releases page from time to time, redownload and reinstall again. Again, the project is highly experimental at this point.
+Go to [releases](https://github.com/mespp/taurapp/releases) and download or create the binary by yourself.
 
-## Features
+1. install necessary programs
+   - install [github desktop](https://desktop.github.com/download/) (or whatever git program you want)
+   - install [rust](https://rustup.rs/)
+   - install [node.js](nodejs.org)
 
- - Minimize window
+2. some more preparations
+   - execute powershell as administrator
+   - run ```Set-ExecutionPolicy RemoteSigned```
+
+3. create the executable
+   - clone the repo ```git clone https://github.com/mespp/taurapp```
+   - get into the folder you cloned it with ```cd where_your_folder_is```
+   - run ```npm install```
+   - run ```npm run tauri build```
+
+4. enjoy!
+   - you'll have your .exe in ```directory_where_u_copied_the_repo\taurapp\src-tauri\target\release```
